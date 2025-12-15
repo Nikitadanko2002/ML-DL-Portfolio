@@ -11,17 +11,17 @@
 
 ## Структура проекта
 
-sleep_health_analysis/
-├── data/ # Исходные данные
-|   ├──Sleep_health_and_lifestyle_dataset.csv
-├── notebooks/ # Jupyter ноутбуки
-├── Danko_1373_Research.ipynb
-├── src/ # Исходный код
-├── reports/ # Отчеты и выводы
-├── visualizations/ # Сохраненные графики
-│ └── sleep_analysis_dashboard.html
-└── README.md # Этот файл
-
+| Путь | Тип | Назначение |
+|------|-----|------------|
+| `data/` | Папка | Исходные данные |
+| `data/Sleep_health_and_lifestyle_dataset.csv` | Файл | Основной датасет с данными о сне |
+| `notebooks/` | Папка | Jupyter ноутбуки с анализом |
+| `notebooks/Danko_1373_Research.ipynb` | Файл | Основной ноутбук с полным анализом |
+| `src/` | Папка | Исходный код Python |
+| `reports/` | Папка | Отчеты и выводы |
+| `visualizations/` | Папка | Сохраненные графики и дашборды |
+| `visualizations/sleep_analysis_dashboard.html` | Файл | Интерактивный дашборд Plotly |
+| `README.md` | Файл | Этот файл с документацией |
 
 ## Технологии
 - **Язык**: Python 3.9+
@@ -35,6 +35,12 @@ sleep_health_analysis/
 
 ## Запуск проекта
 ```bash
+# Клонировать репозиторий
+git clone https://github.com/Nikitadanko2002/ML-DL-Portfolio.git
+
+# Перейти в папку проекта
+cd ML-DL-Portfolio/projects/sleep_health_analysis
+
 # Установите зависимости
 pip install -r requirements.txt
 
